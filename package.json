@@ -1,0 +1,28 @@
+{
+  "name": "render-vue-component",
+  "version": "1.0.1",
+  "description": "mount Vue component as root component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "single file component",
+    "SFC",
+    "rails"
+  ],
+  "author": "kevinluo201",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinluo201/render-vue-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevinluo201/render-vue-component/issues"
+  },
+  "homepage": "https://github.com/kevinluo201/render-vue-component#readme"
+}

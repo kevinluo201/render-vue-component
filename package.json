@@ -2,9 +2,9 @@
   "name": "render-vue-component",
   "version": "1.0.1",
   "description": "mount Vue component as root component",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "vue",
@@ -16,6 +16,13 @@
   "license": "MIT",
   "dependencies": {
     "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-jest": "^26.6.3",
+    "flush-promises": "^1.0.2",
+    "jest": "^26.6.3"
   },
   "repository": {
     "type": "git",
